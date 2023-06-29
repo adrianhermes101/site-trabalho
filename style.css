@@ -1,52 +1,114 @@
-#b {
-    padding-left: 15%;
-    height: auto;
-    width: 70%;
+header {
+    background: #BBBBBB;
+    padding: 20px;
 }
-.titulo1 {
-    text-align: center;
-    padding: center;
-    
+
+.caixa {
+    position: relative;
+    width: 1790px;
+    margin: 0 auto;
 }
-#p1{
-	text-align: center;
-    font-size: 25px;
+
+nav {
+    position: absolute;
+    top: 210px;
+    right: 0;
 }
-.listadefraldas{
-    display: flex;
-    margin-right: 10px;
-    align-items: center;
-justify-content: space-between;
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
-.sherek2{
-   
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
-.imagem20{
-    padding-left: 44%;
-}
-body {
-   
-}
-.principal{
-    background: #99989c
-    
-}
-.titulo2{
-    padding-left: 20px;
-}
-.backgrond{
-    background: #FFFF;
-    padding: 15px;
-}
-.sherek{
-    display: inline-block;
-    width: 20%;
-    margin-right: 15%;
-    vertical-align: top;
-    
-}
-#a {
-    padding-left: 15%; 
-    width: 46%;
+
+nav a:hover {
+    color: rgba(0, 102, 255, 0.438);
+    text-decoration: underline;
 
 }
+
+.produtos {
+    width: 1558px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px; 
+}
+
+.produtos li:hover {
+    border-color: rgba(0, 102, 255, 0.438);;
+}
+
+.produtos li:active {
+    border-color: aquamarine;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 20px;
+}
+
+.preço {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background: url("img5.png");
+    padding: 40px 0;
+}
+
+.ggg {
+    color: aliceblue;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10 px 25px;
+    width: 50%;
+}
+
